@@ -11,7 +11,7 @@ import os
 
 # Milvus Connection
 milvus_host = "useast.services.cloud.techzone.ibm.com"#os.getenv("MILVUS_HOST")
-milvus_port ="40532" #os.getenv("MILVUS_PORT")
+milvus_port =40532 #os.getenv("MILVUS_PORT")
 cert_file_path = "cert.crt"  # Assuming `cert.crt` is in the same directory as app.py
 
 connections.connect(
