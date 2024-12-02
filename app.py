@@ -30,7 +30,7 @@ collection.load()
 
 # IBM Watsonx Credentials
 creds = {
-    "url": "https://us-south.ml.cloud.ibm.com"#os.getenv("IBM_CLOUD_URL"),
+    "url": "https://us-south.ml.cloud.ibm.com",#os.getenv("IBM_CLOUD_URL"),
     "apikey": "Q2uZJDscw55ZJ6IGrpOyHw4c7RpkJyY-z6GKIH5Qj--s"#os.getenv("API_KEY")
 }
 project_id = "8e75587d-5ef2-4d94-a5d1-9493d6145ac3"#os.getenv("PROJECT_ID")
