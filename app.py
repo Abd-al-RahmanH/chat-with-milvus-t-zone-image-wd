@@ -11,7 +11,7 @@ import os
 
 # Milvus Connection
 milvus_host = "useast.services.cloud.techzone.ibm.com"#os.getenv("MILVUS_HOST")
-milvus_port =40532 #os.getenv("MILVUS_PORT")
+milvus_port =40956 #os.getenv("MILVUS_PORT")
 cert_file_path = "cert.crt"  # Assuming `cert.crt` is in the same directory as app.py
 
 connections.connect(
@@ -31,9 +31,9 @@ collection.load()
 # IBM Watsonx Credentials
 creds = {
     "url": "https://us-south.ml.cloud.ibm.com",#os.getenv("IBM_CLOUD_URL"),
-    "apikey": "Q2uZJDscw55ZJ6IGrpOyHw4c7RpkJyY-z6GKIH5Qj--s"#os.getenv("API_KEY")
+    "apikey": "r6zSAPJm7t8GbkqJENPzmXPpOKokltDGcMREKRr5fWdh"#os.getenv("API_KEY")
 }
-project_id = "8e75587d-5ef2-4d94-a5d1-9493d6145ac3"#os.getenv("PROJECT_ID")
+project_id = "833c9053-ef07-455e-819f-6557dea2f8bc"#os.getenv("PROJECT_ID")
 
 # Sentence Transformer Model
 sentence_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
